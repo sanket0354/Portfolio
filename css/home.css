@@ -1,0 +1,202 @@
+html, body {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+}
+
+.row, .col-md-12 {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.col-md-6 {
+    margin-top: 5px;
+    border-left: 4px groove grey;
+}
+
+#coverImage {
+    background-image: url("../images/coverImage.jpg");
+    min-width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.cover-pic-text {
+    font: 100 1.2em/1 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    top: 80%;
+    text-shadow: 12px 12px 20px #000000;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.margin-top-90 {
+    padding-top: 90px;
+}
+
+blockquote {
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+blockquote:before {
+    color: white;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.3em;
+    margin-right: 0.1em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    color: white;
+}
+
+.story-skill-label {
+    text-align: center;
+    padding-top: 10px;
+    font: 400 50px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.story-skill-content {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Bellefair', serif;
+}
+
+.view-my-projects-scrollable-label {
+    text-align: center;
+    margin-top: 5px;
+    font: 800 35px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.7) !important;
+    animation: bouncing 3s infinite;
+}
+
+.view-my-projects-scrollable-label:hover {
+    cursor: pointer;
+}
+
+@keyframes bouncing {
+    25% {
+        margin-top: 0px;
+    }
+    50% {
+        margin-top: 5px;
+    }
+    75% {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: 5px;
+    }
+}
+
+a, href, href:hover {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/*.table{*/
+/*border-bottom: 2px solid;*/
+/*}*/
+/*.table tr{*/
+/*border-top: 2px solid rgba(0,0,0,0.7);*/
+/*}*/
+
+/* COMMENTED CODE */
+/*!* Add a black background color to the top navigation *!*/
+/*.topnav {*/
+/*background-color: #333;*/
+/*overflow: hidden;*/
+/*background: transparent;*/
+/*}*/
+
+/*!* Style the links inside the navigation bar *!*/
+/*.topnav a {*/
+/*float: right;*/
+/*display: block;*/
+/*color: #f2f2f2;*/
+/*text-align: center;*/
+/*padding: 14px 16px;*/
+/*text-decoration: none;*/
+/*font-size: 17px;*/
+/*}*/
+
+/*!* Change the color of links on hover *!*/
+/*.topnav a:hover {*/
+/*background-color: #ddd;*/
+/*color: black;*/
+/*}*/
+
+/*!* Add a color to the active/current link *!*/
+/*.topnav a.active {*/
+/*background-color: #4CAF50;*/
+/*color: white;*/
+/*}*/
+
+/*.face {*/
+/*animation: shake 2s cubic-bezier(.36,.07,.19,.97) both infinite;*/
+/*transform: translate3d(0, 0, 0);*/
+/*backface-visibility: hidden;*/
+/*perspective: 1000px;*/
+/*}*/
+
+/*@keyframes shake {*/
+/*10%, 90% {*/
+/*transform: translate3d(-1px, 0, 0);*/
+/*}*/
+
+/*20%, 80% {*/
+/*transform: translate3d(2px, 0, 0);*/
+/*}*/
+
+/*30%, 50%, 70% {*/
+/*transform: translate3d(-4px, 0, 0);*/
+/*}*/
+
+/*40%, 60% {*/
+/*transform: translate3d(4px, 0, 0);*/
+/*}*/
+/*}*/
+
+/*@keyframes bounce {*/
+/*0% {*/
+/*transform: translate(0);*/
+/**/
+/*} */
+
+/*25% {*/
+/*transform: translate(0px, -80px);*/
+/**/
+/*} */
+
+/*50% {*/
+/*transform: translate(0px, 80px);*/
+/*}*/
+/**/
+/*100% {*/
+/*transform: translate(0px);*/
+/*} */
+/*} */
+
+/*@keyframes example {*/
+/*0% {*/
+/*margin-bottom: 0px;*/
+/*}*/
+/**/
+/*50% {*/
+/*margin-bottom: 30px;*/
+/*}*/
+/**/
+/*100% {*/
+/*margin-bottom: 0px;*/
+/*}*/
+/**/
+/*}*/

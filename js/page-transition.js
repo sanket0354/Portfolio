@@ -1,21 +1,9 @@
 /* Cover pic text animation using funnytext.js*/
 $(document).ready(function () {
 
-    $('#name-title-home-page-text').funnyText({
-        speed: 400,
-        borderColor: 'white',
-        activeColor: 'white',
-        color: 'white',
-        fontSize: '4em',
-        direction: 'both'
-    });
-
-
     $("#home-navbar-link").click(function () {
 
         $("#story-page").slideUp("slow");
-        ;
-
 
     });
 
@@ -24,9 +12,7 @@ $(document).ready(function () {
 
         $("#my-story-content-row").css("margin-left", "10%");
         $("#story-page").slideDown("slow");
-        ;
         $('#my-story-label').letterDrop();
-
 
     });
 

@@ -1,0 +1,185 @@
+#skills-page {
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: auto;
+}
+
+#front-end{
+    margin-top: 50px;
+    /*border-radius: 50%;*/
+    /*border: 2px solid white;*/
+}
+
+#back-end{
+}
+
+#front-end #front-end-text,
+#front-end #front-end-html-text,
+#front-end #front-end-css-text,
+#front-end #front-end-css3-text,
+#front-end #front-end-bootstrap-text,
+#front-end #front-end-animation-text,
+#front-end #front-end-javascript-text,
+#front-end #front-end-jquery-text,
+#front-end #front-end-ajax-text,
+#front-end #front-end-angular-text
+{
+    fill: white;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+}
+
+.no-opacity{
+    opacity: 0;
+}
+
+/*
+* Front-end animation starts
+* display one thing after another
+* increase the delay as the element increases so that the animation is one after other
+ */
+#front-end #front-end-text{
+    animation: fadeIn 1s linear forwards;
+}
+
+#front-end #frontend-html5{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 1s;
+}
+
+#front-end #front-end-html-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2s;
+}
+
+#front-end #frontend-css{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 3s;
+}
+
+#front-end #front-end-css-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 4s;
+}
+
+#front-end #css-bootstrap{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 5s;
+}
+
+#front-end #front-end-bootstrap-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 6s;
+}
+
+#front-end #css-css3{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 7s;
+}
+
+#front-end #front-end-css3-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 8s;
+}
+
+#front-end #css3-animations{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 9s;
+}
+
+#front-end #front-end-animation-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 10s;
+}
+
+#front-end #frontend-javascript{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 7s;
+}
+
+#front-end #front-end-javascript-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 8s;
+}
+
+#front-end #javascript-jquery{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 9s;
+}
+
+#front-end #front-end-jquery-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 10s;
+}
+
+#front-end #javascript-ajax{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 11s;
+}
+
+#front-end #front-end-ajax-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 12s;
+}
+
+#front-end #javascript-angular{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 13s;
+}
+
+#front-end #front-end-angular-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 14s;
+}
+
+
+@-webkit-keyframes Drawpath {
+    from {
+        stroke-dasharray: 0,100;
+    }
+    to {
+        stroke-dasharray: 100,100;
+    }
+}
+@keyframes Drawpath {
+    from {
+        stroke-dasharray: 0,100;
+    }
+    to {
+        stroke-dasharray: 200,100;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

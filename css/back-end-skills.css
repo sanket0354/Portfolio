@@ -1,0 +1,165 @@
+#back-end #back-end-text,
+#back-end #back-end-csharp-text,
+#back-end #back-end-ranorex-text,
+#back-end #back-end-java-text,
+#back-end #back-end-javaSE-text,
+#back-end #back-end-javaEE-text,
+#back-end #back-end-junit-text,
+#back-end #back-end-servlets-text,
+#back-end #back-end-swing-javafx-text,
+#back-end #back-end-jpa-text
+
+{
+    fill: white;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+}
+
+.no-opacity{
+    opacity: 0;
+}
+
+/*
+* Front-end animation starts
+* display one thing after another
+* increase the delay as the element increases so that the animation is one after other
+ */
+#back-end #back-end-text{
+    animation: fadeIn 1s linear forwards;
+}
+
+#back-end #backend-csharp{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 1s;
+}
+
+#back-end #back-end-csharp-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2s;
+
+}
+
+#back-end #csharp-ranorex{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 3s;
+}
+
+#back-end #back-end-ranorex-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 4s;
+}
+
+#back-end #backend-java{
+     -webkit-animation: Drawpath 1s linear forwards;
+     animation: Drawpath 1s linear forwards;
+     stroke-dasharray: 0,100;
+     animation-delay: 2s;
+ }
+
+#back-end #back-end-java-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 3s;
+}
+
+#back-end #java-Junit{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 4s;
+}
+
+#back-end #back-end-junit-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 5s;
+}
+
+#back-end #java-javaSE{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 5s;
+}
+
+#back-end #back-end-javaSE-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 6s;
+}
+
+#back-end #javaSE-javafx-swing{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 7s;
+}
+
+#back-end #back-end-swing-javafx-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 8s;
+}
+
+#back-end #java-javaEE{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 8s;
+}
+
+#back-end #back-end-javaEE-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 9s;
+}
+
+#back-end #javaEE-jpa{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 9s;
+}
+
+#back-end #back-end-jpa-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 10s;
+}
+
+#back-end #javaEE-servlets{
+    -webkit-animation: Drawpath 1s linear forwards;
+    animation: Drawpath 1s linear forwards;
+    stroke-dasharray: 0,100;
+    animation-delay: 11s;
+}
+
+#back-end #back-end-servlets-text{
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 12s;
+}
+
+@-webkit-keyframes Drawpath {
+    from {
+        stroke-dasharray: 0,100;
+    }
+    to {
+        stroke-dasharray: 100,100;
+    }
+}
+@keyframes Drawpath {
+    from {
+        stroke-dasharray: 0,100;
+    }
+    to {
+        stroke-dasharray: 200,100;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

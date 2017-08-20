@@ -4,6 +4,7 @@ $(document).ready(function () {
     $("#home-navbar-link").click(function () {
 
         $("#story-page").slideUp("slow");
+        $("#skills-page").slideUp("slow");
 
     });
 
@@ -13,6 +14,13 @@ $(document).ready(function () {
         $("#my-story-content-row").css("margin-left", "10%");
         $("#story-page").slideDown("slow");
         $('#my-story-label').letterDrop();
+
+    });
+
+
+    $("#skills-navbar-link").click(function () {
+
+        $("#skills-page").slideDown("slow");
 
     });
 

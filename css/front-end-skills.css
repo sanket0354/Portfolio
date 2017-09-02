@@ -1,3 +1,49 @@
+
+.wrapper {
+    margin: 0px!important;
+    height: 70%!important;
+
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1; /* Remove this line if it's not going to be a background! */
+
+}
+
+.wrapper > h1, .wrapper > p {
+    color: #333333;
+}
+
+.wrapper .skills-container {
+    position: relative;
+    height: 100%;
+}
+
+.wrapper .skills-container > svg {
+    display: block;
+}
+
+.wrapper .skills-container > text {
+    display: block;
+}
+
+
+#front-end-svg-div, #back-end-svg-div{
+    width: 50%!important;
+    height: 100%!important;
+}
+
+#front-end-svg-div{
+    float: left!important;
+}
+
+#back-end-svg-div{
+    margin-right: 0px!important;
+    padding-right: 0px!important;
+    float: right!important;
+}
+
 #skills-page {
     display: none;
     background-color: black;
@@ -10,29 +56,35 @@
     overflow: auto;
 }
 
-#front-end{
+#front-end-svg-div #front-end{
     margin-top: 50px;
+    width: 100%!important;
+    height: 100%!important;
     /*border-radius: 50%;*/
     /*border: 2px solid white;*/
 }
 
-#back-end{
-}
-
-#front-end #front-end-text,
-#front-end #front-end-html-text,
-#front-end #front-end-css-text,
-#front-end #front-end-css3-text,
-#front-end #front-end-bootstrap-text,
-#front-end #front-end-animation-text,
-#front-end #front-end-javascript-text,
-#front-end #front-end-jquery-text,
-#front-end #front-end-ajax-text,
-#front-end #front-end-angular-text
+#front-end-svg-div #front-end #front-end-text,
+#front-end-svg-div #front-end #front-end-html-text,
+#front-end-svg-div #front-end #front-end-css-text,
+#front-end-svg-div #front-end #front-end-css3-text,
+#front-end-svg-div #front-end #front-end-bootstrap-text,
+#front-end-svg-div #front-end #front-end-animation-text,
+#front-end-svg-div #front-end #front-end-javascript-text,
+#front-end-svg-div #front-end #front-end-jquery-text,
+#front-end-svg-div #front-end #front-end-ajax-text,
+#front-end-svg-div #front-end #front-end-angular-text
 {
     fill: white;
     font-family: 'Cabin Sketch', cursive;
-    font-size: 40px;
+    font-size: 3px;
+    letter-spacing: 0.6px;
+}
+
+#front-end-svg-div #front-end .front-end-path-properties{
+    fill: none;
+    stroke-width: 0.4px;
+    stroke: rgba(200,10,10,0.5);
 }
 
 .no-opacity{
@@ -49,8 +101,8 @@
 }
 
 #front-end #frontend-html5{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
     animation-delay: 1s;
 }
@@ -61,99 +113,99 @@
 }
 
 #front-end #frontend-css{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
     animation-delay: 3s;
 }
 
 #front-end #front-end-css-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 }
 
 #front-end #css-bootstrap{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 5s;
+    animation-delay: 4.5s;
 }
 
 #front-end #front-end-bootstrap-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 6s;
+    animation-delay: 5s;
 }
 
 #front-end #css-css3{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 7s;
+    animation-delay: 6s;
 }
 
 #front-end #front-end-css3-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 8s;
+    animation-delay: 6.5s;
 }
 
 #front-end #css3-animations{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 9s;
+    animation-delay: 7.5s;
 }
 
 #front-end #front-end-animation-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 
 #front-end #frontend-javascript{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 7s;
+    animation-delay: 6s;
 }
 
 #front-end #front-end-javascript-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 8s;
+    animation-delay: 6.5s;
 }
 
 #front-end #javascript-jquery{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 9s;
+    animation-delay: 7.5s;
 }
 
 #front-end #front-end-jquery-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 
 #front-end #javascript-ajax{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 11s;
+    animation-delay: 8.5s;
 }
 
 #front-end #front-end-ajax-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 12s;
+    animation-delay: 9s;
 }
 
 #front-end #javascript-angular{
-    -webkit-animation: Drawpath 1s linear forwards;
-    animation: Drawpath 1s linear forwards;
+    -webkit-animation: Drawpath 2s linear forwards;
+    animation: Drawpath 2s linear forwards;
     stroke-dasharray: 0,100;
-    animation-delay: 13s;
+    animation-delay: 9.5s;
 }
 
 #front-end #front-end-angular-text{
     animation: fadeIn 1s linear forwards;
-    animation-delay: 14s;
+    animation-delay: 10s;
 }
 
 

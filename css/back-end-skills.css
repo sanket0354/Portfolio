@@ -1,3 +1,12 @@
+#back-end-svg-div #back-end{
+    margin-top: 50px;
+    width: 100%!important;
+    height: 100%!important;
+    /*border-radius: 50%;*/
+    /*border: 2px solid white;*/
+}
+
+
 #back-end #back-end-text,
 #back-end #back-end-csharp-text,
 #back-end #back-end-ranorex-text,
@@ -12,7 +21,8 @@
 {
     fill: white;
     font-family: 'Cabin Sketch', cursive;
-    font-size: 40px;
+    font-size: 3px;
+    letter-spacing: 0.6px;
 }
 
 .no-opacity{

@@ -12,7 +12,10 @@ $(document).ready(function () {
     $("#bio-navbar-link").click(function () {
 
         $("#my-story-content-row").css("margin-left", "10%");
+
+        $("#skills-page").slideUp("slow");
         $("#story-page").slideDown("slow");
+
         $('#my-story-label').letterDrop();
 
     });
@@ -21,6 +24,7 @@ $(document).ready(function () {
     $("#skills-navbar-link").click(function () {
 
         $("#skills-page").slideDown("slow");
+        $("#story-page").slideUp("slow");
 
     });
 

@@ -41,3 +41,26 @@ body {
     text-align: center;
 }
 
+@media (min-width: 740px)  and (max-width: 900px) {
+    #name-title-home-page-text {
+        font: 600 1.4em/1 'Raleway', sans-serif;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 740px) {
+    #name-title-home-page-text {
+        font: 600 1.2em/1 'Raleway', sans-serif;
+    }
+}
+
+@media (min-width: 440px)  and (max-width: 640px) {
+    #name-title-home-page-text {
+        font: 600 0.9em/1 'Raleway', sans-serif;
+    }
+}
+
+@media (max-width: 375px) {
+    #name-title-home-page-text {
+        font: 600 0.6em/1 'Raleway', sans-serif;
+    }
+}

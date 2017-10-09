@@ -11,6 +11,21 @@ $(document).ready(function () {
     });
 
 
+    $(window).resize(function(){
+       $('#name-title-home-page-text').empty();
+        $('#name-title-home-page-text').append("SANKET PATEL | FULL STACK DEVELOPER");
+        $('#name-title-home-page-text').funnyText({
+            speed: 400,
+            borderColor: 'white',
+            activeColor: 'white',
+            color: 'white',
+            fontSize: '4em',
+            direction: 'both'
+        });
+    });
+
+
+
     $("#home-navbar-link").click(function () {
 
         $("#story-page").slideUp("slow");
@@ -31,3 +46,7 @@ $(document).ready(function () {
     });
 
 });
+
+
+
+

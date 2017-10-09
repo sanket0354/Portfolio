@@ -15,7 +15,7 @@ $(document).ready(function () {
        $('#name-title-home-page-text').empty();
         $('#name-title-home-page-text').append("SANKET PATEL | FULL STACK DEVELOPER");
         $('#name-title-home-page-text').funnyText({
-            speed: 400,
+            speed: 100,
             borderColor: 'white',
             activeColor: 'white',
             color: 'white',

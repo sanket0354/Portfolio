@@ -11,8 +11,8 @@ $(document).ready(function () {
 
     $("#bio-navbar-link").click(function () {
 
-        $("#my-story-content-row").css("margin-left", "10%");
-
+        // $("#my-story-content-row").css("margin-left", "10%");
+        $("#skills-page").slideUp("slow");
         $("#story-page").slideDown("slow");
 
         $('#my-story-label').letterDrop();

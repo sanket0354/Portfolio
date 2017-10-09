@@ -8,7 +8,7 @@
 
 (function($){
 	$.fn.funnyText = function(options){
-		
+		// console.log(options);
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
 			'speed': 700,
@@ -18,6 +18,10 @@
 			'fontSize': '7em',
 			'direction': 'both'
 		}, options);
+
+
+
+		// console.log(options.speed);
 
 		var that = $(this);
 		
